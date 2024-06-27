@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.hero{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-color: #eff4fd;
+
+    
+}
+
+.image{
+    margin-top: 0px;
+    margin-left: 100px;
+}
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    font-weight: bold;
+
+    
+    
+
+}
+.container ul li {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+   
+   
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    
+}
+nav ul li a:hover{
+    color: rgb(165, 83, 42);
+   background-color: rgba(1, 17, 12, 0.33);
+   padding: 8px;
+   border-radius: 4px;
+   box-shadow: 2px 2px 2px 2px gray;
+    
+    
+    
+}
+
+.detail a{
+    text-decoration: none;
+    margin: 30px ;
+    display: inline-block;
+    background-color: white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 4px;
+    margin-left:1px;
+    color: black;
+    font-weight: bold;
+    box-shadow:2px 2px yellow;
+    
+   
+   
+}
+
+.detail a:hover{
+    background-color: rgba(255, 249, 127, 0.945);
+}
+
+.detail h1 {
+    font-weight: bolder;
+    line-height: 2em;
+    
+}
+
+.detail p{
+    line-height: 2em;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+
+
+.detail{
+    position: absolute;
+    left: 114px;
+    bottom: 250px
+}
+
+span{
+    color: rgb(255, 174, 0);
+}
+
+
+
+
+
+.shape {
+    position: absolute;
+    left: 65vw;
+    top: 20vh;
+    
+
+}
+
+
+
+
+
+
+/* .boy{
+    position: absolute;
+    left: 50vw;
+    top: 30vh;
+} */
